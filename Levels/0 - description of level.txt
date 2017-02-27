@@ -1,0 +1,47 @@
+Писать только числа в строго определённом порядке!
+musicName = "Levels/example.mp3";
+l.healthK = 1;
+l.rewardK = 1;
+l.lifeCount = 10;
+l.startMoney = 50;
+
+int vertex_count = 4;
+int points[] = {-10, 200, 250, 300, 150, 400, 200, 520};
+l.path = createPath(4, points);
+
+l.towerTypesCount = 1;
+l.towerTypes[0].type = TW_GUN;
+l.towerTypes[0].basePrice = 10;
+l.towerTypes[0].maxLevel = 10;
+
+l.wavesCount = 3;
+
+l.waves[0].delayTick = 0;
+l.waves[0].periodTick = 40;
+l.waves[0].unitCount = 4;
+l.waves[0].units[0] = U_FAST;
+l.waves[0].units[1] = U_FAST;
+l.waves[0].units[2] = U_FAST;
+l.waves[0].units[3] = U_FAST;
+
+l.waves[1].delayTick = 0;
+l.waves[1].periodTick = 200;
+l.waves[1].unitCount = 4;
+l.waves[1].units[0] = U_MEDIUM;
+l.waves[1].units[1] = U_MEDIUM;
+l.waves[1].units[2] = U_MEDIUM;
+l.waves[1].units[3] = U_MEDIUM;
+
+l.waves[2].delayTick = 500;
+l.waves[2].periodTick = 2000;
+l.waves[2].unitCount = 4;
+l.waves[2].units[0] = U_STRONG;
+l.waves[2].units[1] = U_STRONG;
+l.waves[2].units[2] = U_STRONG;
+l.waves[2].units[3] = U_STRONG;
+
+    
+
+    
+
+    
